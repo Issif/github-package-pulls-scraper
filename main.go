@@ -73,7 +73,8 @@ func scrape(profile *string) {
 	url := strings.ReplaceAll(URLBase, "<name>", *profile)
 
 	log.Printf("Start scrapping of '%v'\n", url)
-	c := colly.NewCollector()
+	c := colly.NewCollector(colly.Async(true))
+	c.Limit(&colly.LimitRule{Parallelism: 15})
 
 	c.OnResponse(func(r *colly.Response) {
 		if r.StatusCode != 200 {
@@ -114,6 +115,7 @@ func scrape(profile *string) {
 	})
 
 	c.Visit(url)
+	c.Wait()
 	results = removeIncomplete(results)
 	log.Printf("%v package(s) found\n", nbPackages)
 }
