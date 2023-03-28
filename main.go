@@ -54,12 +54,21 @@ func main() {
 func writeCSV(folder *string) {
 	log.Printf("Writing of the .csv in '%v'\n", *folder)
 	for _, i := range results {
-		f, err := os.OpenFile(fmt.Sprintf("%v/%v.csv", *folder, strings.ReplaceAll(i.Package, "/", "_")), os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+		filename := fmt.Sprintf("%v/%v.csv", *folder, strings.ReplaceAll(i.Package, "/", "_"))
+		_, errorExist := os.Stat(filename)
+		f, err := os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 		if err != nil {
 			log.Fatal(err)
 			return
 		}
 		defer f.Close()
+
+		if os.IsNotExist(errorExist) {
+			if _, err := f.WriteString("Date,Package,Version,Count\n"); err != nil {
+				log.Fatal(err)
+				return
+			}
+		}
 
 		if _, err := f.WriteString(fmt.Sprintf("%v,%v,%v,%v\n", i.Date, i.Package, i.Version, i.Count)); err != nil {
 			log.Fatal(err)
