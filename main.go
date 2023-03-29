@@ -54,7 +54,7 @@ func main() {
 func writeCSV(folder *string) {
 	log.Printf("Writing of the .csv in '%v'\n", *folder)
 	for _, i := range results {
-		filename := fmt.Sprintf("%v/%v.csv", *folder, strings.ReplaceAll(i.Package, "/", "_"))
+		filename := fmt.Sprintf("%v/%v_%v.csv", *folder, strings.ReplaceAll(i.Package, "/", "_"), i.Version)
 		_, errorExist := os.Stat(filename)
 		f, err := os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 		if err != nil {
