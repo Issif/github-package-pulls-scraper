@@ -23,11 +23,12 @@ const (
 	URLBase = "https://github.com/orgs/<name>/packages?visibility=public"
 )
 
-var reg regexp.Regexp
+var regVersion, regCount regexp.Regexp
 var results []stats
 
 func init() {
-	reg = *regexp.MustCompile(`[0-999]\.[0-999]\.[0-999](-.*)?`)
+	regVersion = *regexp.MustCompile(`[0-999]\.[0-999]\.[0-999](-.*)?`)
+	regCount = *regexp.MustCompile(`[0-999]+(\,[0-999])?`)
 }
 
 func main() {
@@ -108,13 +109,14 @@ func scrape(profile *string) {
 		r.Date = time.Now().Format(time.RFC3339)
 		r.Package = fmt.Sprintf("%v/%v", b[0], b[1])
 		h.ForEach("a", func(_ int, el *colly.HTMLElement) {
-			if reg.Match([]byte(el.Text)) {
+			if regVersion.Match([]byte(el.Text)) {
 				r.Version = fmt.Sprintf("%v", el.Text)
 			}
 		})
 		h.ForEach("span", func(_ int, el *colly.HTMLElement) {
-			if el.Attr("class") == "color-fg-muted overflow-hidden f6 mr-3" {
-				c := strings.TrimSpace(el.Text)
+			if el.Attr("class") == "d-flex flex-items-center gap-1 color-fg-muted overflow-hidden f6 mr-3" {
+				c := string(regCount.FindAll([]byte(el.Text), -1)[0])
+				c = strings.TrimSpace(c)
 				c = strings.Trim(c, "\n")
 				c = strings.ReplaceAll(c, ",", "")
 				r.Count = fmt.Sprintf("%v", c)
