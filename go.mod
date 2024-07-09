@@ -2,7 +2,10 @@ module github.com/Issif/github-package-pulls-scraper
 
 go 1.20
 
-require github.com/gocolly/colly/v2 v2.1.0
+require (
+	github.com/go-echarts/go-echarts/v2 v2.4.0
+	github.com/gocolly/colly/v2 v2.1.0
+)
 
 require (
 	github.com/PuerkitoBio/goquery v1.5.1 // indirect

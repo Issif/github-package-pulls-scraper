@@ -1,0 +1,15 @@
+Date,Package,Version,Count
+2024-04-19,ruleset/k8saudit-gke,0.1.0,744
+2024-04-20,ruleset/k8saudit-gke,0.1.0,748
+2024-04-21,ruleset/k8saudit-gke,0.1.0,748
+2024-04-22,ruleset/k8saudit-gke,0.1.0,752
+2024-04-23,ruleset/k8saudit-gke,0.1.0,755
+2024-04-24,ruleset/k8saudit-gke,0.1.0,765
+2024-04-25,ruleset/k8saudit-gke,0.1.0,772
+2024-04-26,ruleset/k8saudit-gke,0.1.0,777
+2024-04-27,ruleset/k8saudit-gke,0.1.0,777
+2024-07-10,ruleset/k8saudit-gke,0.3.1,23
+2024-07-10,ruleset/k8saudit-gke,0.3.0,26
+2024-07-10,ruleset/k8saudit-gke,0.2.0,33
+2024-07-10,ruleset/k8saudit-gke,0.1.1,31
+2024-07-10,ruleset/k8saudit-gke,0.1.0,808
