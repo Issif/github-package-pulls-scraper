@@ -37,7 +37,7 @@ var organization string
 
 func init() {
 	regVersion = *regexp.MustCompile(`(v)?[0-999]+\.[0-999]+\.[0-999]+(-.*)?`)
-	regCount = *regexp.MustCompile(`[0-999]+(\,[0-999]+)?`)
+	regCount = *regexp.MustCompile(`[0-999]+(\,[0-999]+)?(\,[0-999]+)?(\,[0-999]+)?`)
 }
 
 func main() {

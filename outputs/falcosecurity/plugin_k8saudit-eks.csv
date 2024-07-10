@@ -1791,11 +1791,11 @@ Date,Package,Version,Count
 2024-07-07,plugin/k8saudit-eks,0.5.1,98
 2024-07-08,plugin/k8saudit-eks,0.5.0,142
 2024-07-08,plugin/k8saudit-eks,0.5.1,100
-2024-07-10,plugin/k8saudit-eks,0.5.1,11884
+2024-07-10,plugin/k8saudit-eks,0.5.1,12023
 2024-07-10,plugin/k8saudit-eks,0.5.0,14253
-2024-07-10,plugin/k8saudit-eks,0.4.0,44473
-2024-07-10,plugin/k8saudit-eks,0.2.1,10946
-2024-07-10,plugin/k8saudit-eks,0.2.0,228778
-2024-07-10,plugin/k8saudit-eks,0.1.2,1203
+2024-07-10,plugin/k8saudit-eks,0.4.0,44508
+2024-07-10,plugin/k8saudit-eks,0.2.1,10949
+2024-07-10,plugin/k8saudit-eks,0.2.0,229224
+2024-07-10,plugin/k8saudit-eks,0.1.2,1203914
 2024-07-10,plugin/k8saudit-eks,0.1.1,9231
 2024-07-10,plugin/k8saudit-eks,0.1.0,201638
