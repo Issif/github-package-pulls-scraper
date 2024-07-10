@@ -4,8 +4,11 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
+	"html/template"
+	"io/fs"
 	"log"
 	"os"
+	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
@@ -61,9 +64,10 @@ func main() {
 		log.Printf("Folder '%v' already exists\n", *outputFolder)
 	}
 
-	scrape()
-	writeCSV(outputFolder)
+	// scrape()
+	// writeCSV(outputFolder)
 	renderChart(*outputFolder, *renderFolder)
+	updateIndexHtml(*renderFolder)
 }
 
 func writeCSV(folder *string) {
@@ -253,5 +257,84 @@ func renderChart(dataFolder, renderFolder string) {
 			log.Fatal(err)
 		}
 		line.Render(o)
+	}
+}
+
+func updateIndexHtml(renderFolder string) {
+	log.Println("Writing of the index.html")
+
+	templateStr := `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<title>Docker pull counts</title>
+</head>
+<body>
+	<div class="row">
+		<div class="col s5">
+		<table class="striped responsive-table" style="margin: 20px">
+			<thead>
+				<tr>
+					<th>Chart</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{- range . }}
+				<tr>
+					<td><a href="{{ .Link }}">{{ .Name }}</a></td>
+				</tr>
+				{{- end }}
+			</tbody>
+		</table>
+		</div>
+	</div>
+</body>
+</html>`
+
+	type chart struct {
+		Link string
+		Name string
+	}
+
+	charts := []chart{}
+
+	err := filepath.WalkDir(renderFolder, func(path string, d fs.DirEntry, err error) error {
+		if err != nil {
+			log.Fatal(err)
+		}
+		if d.IsDir() && strings.Count(path, string(os.PathSeparator)) > 2 {
+			return fs.SkipDir
+		}
+		fmt.Println(renderFolder)
+		charts = append(charts, chart{Link: path, Name: path})
+		return nil
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	parsedTemplate, err := template.
+		New("index").
+		Funcs(template.FuncMap{
+			"replace": func(input, from, to string) string {
+				return strings.ReplaceAll(input, from, to)
+			},
+		}).
+		Parse(templateStr)
+	if err != nil {
+		log.Fatal(err)
+	}
+	f, err := os.OpenFile("index.html", os.O_RDWR|os.O_CREATE, 0744)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+	err = parsedTemplate.Execute(f, charts[1:])
+	if err != nil {
+		log.Fatal(err)
 	}
 }
