@@ -284,9 +284,7 @@ func updateIndexHtml(renderFolder string) {
 			</thead>
 			<tbody>
 				{{- range . }}
-				<tr>
-					<td><a href="{{ .Link }}">{{ .Name }}</a></td>
-				</tr>
+				<tr><td><a href="{{ .Link }}">{{ .Name }}</a></td></tr>
 				{{- end }}
 			</tbody>
 		</table>
