@@ -64,8 +64,8 @@ func main() {
 		log.Printf("Folder '%v' already exists\n", *outputFolder)
 	}
 
-	// scrape()
-	// writeCSV(outputFolder)
+	scrape()
+	writeCSV(outputFolder)
 	renderChart(*outputFolder, *renderFolder)
 	updateIndexHtml(*renderFolder)
 }
@@ -309,8 +309,8 @@ func updateIndexHtml(renderFolder string) {
 		if d.IsDir() && strings.Count(path, string(os.PathSeparator)) > 2 {
 			return fs.SkipDir
 		}
-		fmt.Println(renderFolder)
-		charts = append(charts, chart{Link: path, Name: path})
+		name := strings.TrimPrefix(path, strings.TrimPrefix(renderFolder, "./"))
+		charts = append(charts, chart{Link: path, Name: organization + name})
 		return nil
 	})
 	if err != nil {
