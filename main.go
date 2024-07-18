@@ -308,6 +308,7 @@ func updateIndexHtml(renderFolder string) {
 			return fs.SkipDir
 		}
 		name := strings.TrimPrefix(path, strings.TrimPrefix(renderFolder, "./"))
+		name = strings.TrimSuffix(name, ".html")
 		charts = append(charts, chart{Link: path, Name: organization + name})
 		return nil
 	})
