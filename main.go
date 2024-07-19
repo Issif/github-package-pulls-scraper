@@ -248,7 +248,7 @@ func renderChart(dataFolder, renderFolder string) {
 
 		line.SetSeriesOptions(charts.WithMarkLineNameXAxisItemOpts(
 			opts.MarkLineNameXAxisItem{
-				XAxis: "2024-07-09",
+				XAxis: "2024-07-10",
 			},
 		))
 
