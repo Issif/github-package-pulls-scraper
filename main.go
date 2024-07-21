@@ -217,9 +217,15 @@ func renderChart(dataFolder, renderFolder string) {
 			charts.WithInitializationOpts(opts.Initialization{
 				PageTitle: strings.ReplaceAll(p, "_", "/"),
 				Width:     "100%",
-				Height:    "95vh"}),
+				Height:    "95vh",
+			}),
 			charts.WithTitleOpts(opts.Title{
 				Title: strings.ReplaceAll(p, "_", "/"),
+			}),
+			charts.WithDataZoomOpts(opts.DataZoom{
+				Type:  "slider",
+				Start: 0,
+				End:   100,
 			}),
 			charts.WithLegendOpts(opts.Legend{
 				SelectedMode: "multiple",
