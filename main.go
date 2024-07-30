@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	humanize "github.com/dustin/go-humanize"
 	"github.com/go-echarts/go-echarts/v2/charts"
 	"github.com/go-echarts/go-echarts/v2/opts"
 	colly "github.com/gocolly/colly/v2"
@@ -67,7 +68,7 @@ func main() {
 	scrape()
 	writeCSV(outputFolder)
 	renderChart(*outputFolder, *renderFolder)
-	updateIndexHtml(*renderFolder)
+	updateIndexHtml(*outputFolder, *renderFolder)
 }
 
 func writeCSV(folder *string) {
@@ -162,7 +163,7 @@ func scrape() {
 
 func removeIncomplete(r []stats) []stats {
 	var s []stats
-	for _, i := range results {
+	for _, i := range r {
 		if i.Package != "" && i.Version != "" && i.Count != "" {
 			s = append(s, i)
 		}
@@ -266,7 +267,7 @@ func renderChart(dataFolder, renderFolder string) {
 	}
 }
 
-func updateIndexHtml(renderFolder string) {
+func updateIndexHtml(outputFolder, renderFolder string) {
 	log.Println("Writing of the index.html")
 
 	templateStr := `
@@ -285,12 +286,18 @@ func updateIndexHtml(renderFolder string) {
 		<table class="striped responsive-table" style="margin: 20px">
 			<thead>
 				<tr>
+					<th>Package</th>
+					<th>Count</th>
 					<th>Chart</th>
 				</tr>
 			</thead>
 			<tbody>
 				{{- range . }}
-				<tr><td><a href="{{ .Link }}">{{ .Name }}</a></td></tr>
+				<tr>
+					<td>{{ .Name }}</td>
+					<td>{{ .HCount }}</td>
+					<td><a href="{{ .ChartURL }}"><span class="material-symbols-outlined">monitoring</span></a></td>
+				</tr>
 				{{- end }}
 			</tbody>
 		</table>
@@ -299,28 +306,72 @@ func updateIndexHtml(renderFolder string) {
 </body>
 </html>`
 
-	type chart struct {
-		Link string
-		Name string
+	type packageStruct struct {
+		ChartURL string
+		Name     string
+		Count    int
+		HCount   string
 	}
 
-	charts := []chart{}
+	packages := []packageStruct{}
 
-	err := filepath.WalkDir(renderFolder, func(path string, d fs.DirEntry, err error) error {
+	err := filepath.WalkDir(outputFolder, func(path string, d fs.DirEntry, err error) error {
 		if err != nil {
 			log.Fatal(err)
 		}
 		if d.IsDir() && strings.Count(path, string(os.PathSeparator)) > 2 {
 			return fs.SkipDir
 		}
-		name := strings.TrimPrefix(path, strings.TrimPrefix(renderFolder, "./"))
-		name = strings.TrimSuffix(name, ".html")
-		charts = append(charts, chart{Link: path, Name: organization + name})
+
+		name := strings.TrimPrefix(path, strings.TrimPrefix(outputFolder, "./"))
+		name = strings.TrimSuffix(name, ".csv")
+
+		counts := make(map[string]int)
+
+		if strings.Contains(path, ".csv") {
+			file, err := os.Open(path)
+			if err != nil {
+				log.Fatal(err)
+			}
+			fileScanner := bufio.NewScanner(file)
+			fileScanner.Scan() // skip first list with headers
+			for fileScanner.Scan() {
+				s := fileScanner.Text()
+				v := strings.Split(s, ",")[2]
+				c, _ := strconv.Atoi(strings.Split(s, ",")[3])
+				counts[v] = c
+			}
+			if err := fileScanner.Err(); err != nil {
+				log.Fatal(err)
+			}
+
+			var count int
+			for _, i := range counts {
+				count += i
+			}
+
+			path = strings.ReplaceAll(path, ".csv", ".html")
+			path = strings.ReplaceAll(path, strings.TrimPrefix(outputFolder, "./"), strings.TrimPrefix(renderFolder, "./"))
+
+			packages = append(packages, packageStruct{
+				ChartURL: path,
+				Name:     organization + name,
+				Count:    count,
+				HCount:   humanize.Comma(int64(count)),
+			})
+		}
+
 		return nil
 	})
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	packages = packages[1:]
+
+	sort.Slice(packages, func(i, j int) bool {
+		return packages[i].Count > packages[j].Count
+	})
 
 	parsedTemplate, err := template.
 		New("index").
@@ -338,7 +389,7 @@ func updateIndexHtml(renderFolder string) {
 		log.Fatal(err)
 	}
 	defer f.Close()
-	err = parsedTemplate.Execute(f, charts[1:])
+	err = parsedTemplate.Execute(f, packages)
 	if err != nil {
 		log.Fatal(err)
 	}
