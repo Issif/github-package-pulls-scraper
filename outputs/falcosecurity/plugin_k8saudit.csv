@@ -2525,3 +2525,15 @@ Date,Package,Version,Count
 2024-08-05,plugin/k8saudit,0.5.2,15917
 2024-08-05,plugin/k8saudit,0.5.1,8596
 2024-08-05,plugin/k8saudit,0.5.0,26008
+2024-08-06,plugin/k8saudit,0.10.1,1006821
+2024-08-06,plugin/k8saudit,0.10.0,486964
+2024-08-06,plugin/k8saudit,0.10.0-rc1,1790
+2024-08-06,plugin/k8saudit,0.9.0,287372
+2024-08-06,plugin/k8saudit,0.8.0,281731
+2024-08-06,plugin/k8saudit,0.7.0,3833663
+2024-08-06,plugin/k8saudit,0.6.1,972359
+2024-08-06,plugin/k8saudit,0.6.0,222541
+2024-08-06,plugin/k8saudit,0.5.3,58211
+2024-08-06,plugin/k8saudit,0.5.2,15941
+2024-08-06,plugin/k8saudit,0.5.1,8620
+2024-08-06,plugin/k8saudit,0.5.0,26048
