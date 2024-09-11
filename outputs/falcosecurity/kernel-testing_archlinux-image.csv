@@ -730,3 +730,15 @@ Date,Package,Version,Count
 2024-09-10,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,48
 2024-09-10,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,48
 2024-09-10,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,48
+2024-09-11,kernel-testing/archlinux-image,5.18-x86_64-v0.3.2,95
+2024-09-11,kernel-testing/archlinux-image,6.7-x86_64-v0.3.2,119
+2024-09-11,kernel-testing/archlinux-image,6.0-x86_64-v0.3.2,119
+2024-09-11,kernel-testing/archlinux-image,4.14-aarch64-v0.3.2,95
+2024-09-11,kernel-testing/archlinux-image,5.18-x86_64-v0.3.1,48
+2024-09-11,kernel-testing/archlinux-image,6.7-x86_64-v0.3.1,49
+2024-09-11,kernel-testing/archlinux-image,6.0-x86_64-v0.3.1,49
+2024-09-11,kernel-testing/archlinux-image,4.14-aarch64-v0.3.1,48
+2024-09-11,kernel-testing/archlinux-image,5.18-x86_64-v0.3.0,48
+2024-09-11,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,48
+2024-09-11,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,48
+2024-09-11,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,48
