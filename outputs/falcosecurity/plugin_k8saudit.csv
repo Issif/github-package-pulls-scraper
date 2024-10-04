@@ -3221,3 +3221,15 @@ Date,Package,Version,Count
 2024-10-03,plugin/k8saudit,0.5.2,17339
 2024-10-03,plugin/k8saudit,0.5.1,10018
 2024-10-03,plugin/k8saudit,0.5.0,29725
+2024-10-04,plugin/k8saudit,0.10.1,2534278
+2024-10-04,plugin/k8saudit,0.10.0,491480
+2024-10-04,plugin/k8saudit,0.10.0-rc1,3212
+2024-10-04,plugin/k8saudit,0.9.0,292048
+2024-10-04,plugin/k8saudit,0.8.0,284590
+2024-10-04,plugin/k8saudit,0.7.0,4929104
+2024-10-04,plugin/k8saudit,0.6.1,1127522
+2024-10-04,plugin/k8saudit,0.6.0,239609
+2024-10-04,plugin/k8saudit,0.5.3,61055
+2024-10-04,plugin/k8saudit,0.5.2,17363
+2024-10-04,plugin/k8saudit,0.5.1,10042
+2024-10-04,plugin/k8saudit,0.5.0,30026
