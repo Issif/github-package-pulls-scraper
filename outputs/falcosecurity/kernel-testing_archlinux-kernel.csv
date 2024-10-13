@@ -1115,3 +1115,15 @@ Date,Package,Version,Count
 2024-10-12,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,50
 2024-10-12,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,50
 2024-10-12,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,50
+2024-10-13,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.2,99
+2024-10-13,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.2,336
+2024-10-13,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.2,321
+2024-10-13,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.2,99
+2024-10-13,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.1,50
+2024-10-13,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.1,51
+2024-10-13,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.1,51
+2024-10-13,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.1,50
+2024-10-13,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.0,50
+2024-10-13,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,50
+2024-10-13,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,50
+2024-10-13,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,50
