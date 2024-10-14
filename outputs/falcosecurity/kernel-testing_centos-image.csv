@@ -845,3 +845,12 @@ Date,Package,Version,Count
 2024-10-13,kernel-testing/centos-image,3.10-x86_64-v0.3.0,52
 2024-10-13,kernel-testing/centos-image,4.18-x86_64-v0.3.0,52
 2024-10-13,kernel-testing/centos-image,5.14-x86_64-v0.3.0,52
+2024-10-14,kernel-testing/centos-image,3.10-x86_64-v0.3.2,109
+2024-10-14,kernel-testing/centos-image,4.18-x86_64-v0.3.2,235
+2024-10-14,kernel-testing/centos-image,5.14-x86_64-v0.3.2,343
+2024-10-14,kernel-testing/centos-image,3.10-x86_64-v0.3.1,53
+2024-10-14,kernel-testing/centos-image,4.18-x86_64-v0.3.1,53
+2024-10-14,kernel-testing/centos-image,5.14-x86_64-v0.3.1,53
+2024-10-14,kernel-testing/centos-image,3.10-x86_64-v0.3.0,52
+2024-10-14,kernel-testing/centos-image,4.18-x86_64-v0.3.0,52
+2024-10-14,kernel-testing/centos-image,5.14-x86_64-v0.3.0,52
