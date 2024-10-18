@@ -1717,3 +1717,10 @@ Date,Package,Version,Count
 2024-10-17,rules/falco-sandbox-rules,3.0.0-rc1,6560
 2024-10-17,rules/falco-sandbox-rules,2.0.0,18559425
 2024-10-17,rules/falco-sandbox-rules,2.0.0-rc1,9705
+2024-10-18,rules/falco-sandbox-rules,4.0.1,105249
+2024-10-18,rules/falco-sandbox-rules,4.0.0,109058
+2024-10-18,rules/falco-sandbox-rules,3.0.1,4520378
+2024-10-18,rules/falco-sandbox-rules,3.0.0,204247
+2024-10-18,rules/falco-sandbox-rules,3.0.0-rc1,6584
+2024-10-18,rules/falco-sandbox-rules,2.0.0,18636148
+2024-10-18,rules/falco-sandbox-rules,2.0.0-rc1,9729
