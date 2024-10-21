@@ -253,11 +253,40 @@ func renderChart(dataFolder, renderFolder string) {
 			line.AddSeries(i, yData)
 		}
 
-		line.SetSeriesOptions(charts.WithMarkLineNameXAxisItemOpts(
-			opts.MarkLineNameXAxisItem{
-				XAxis: "2024-07-10",
-			},
-		))
+		yData := make([]opts.LineData, 0)
+		for _, i := range xData {
+			var total int
+			for j := range versions {
+				c, _ := strconv.Atoi(count[i][j])
+				total += c
+			}
+			yData = append(yData, opts.LineData{Value: fmt.Sprintf("%v", total)})
+		}
+		line.AddSeries("TOTAL", yData, charts.WithSeriesOpts(
+			charts.SingleSeriesOptFunc(
+				charts.WithLineStyleOpts(
+					opts.LineStyle{
+						Width: 3.0,
+						Type:  "dotted",
+					},
+				),
+			),
+		),
+		)
+
+		line.SetSeriesOptions(
+			charts.WithMarkLineNameXAxisItemOpts(
+				opts.MarkLineNameXAxisItem{
+					XAxis: "2024-07-10",
+				},
+			),
+			charts.WithLineChartOpts(opts.LineChart{
+				ShowSymbol: opts.Bool(true),
+			}),
+			charts.WithLabelOpts(opts.Label{
+				Show: opts.Bool(false),
+			}),
+		)
 
 		o, err := os.Create(fmt.Sprintf("%v/%v.html", renderFolder, p))
 		if err != nil {
