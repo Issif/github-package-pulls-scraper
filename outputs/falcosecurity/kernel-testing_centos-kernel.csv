@@ -1007,3 +1007,12 @@ Date,Package,Version,Count
 2024-10-31,kernel-testing/centos-kernel,3.10-x86_64-v0.3.0,55
 2024-10-31,kernel-testing/centos-kernel,4.18-x86_64-v0.3.0,55
 2024-10-31,kernel-testing/centos-kernel,5.14-x86_64-v0.3.0,55
+2024-11-01,kernel-testing/centos-kernel,3.10-x86_64-v0.3.2,115
+2024-11-01,kernel-testing/centos-kernel,4.18-x86_64-v0.3.2,422
+2024-11-01,kernel-testing/centos-kernel,5.14-x86_64-v0.3.2,525
+2024-11-01,kernel-testing/centos-kernel,3.10-x86_64-v0.3.1,56
+2024-11-01,kernel-testing/centos-kernel,4.18-x86_64-v0.3.1,56
+2024-11-01,kernel-testing/centos-kernel,5.14-x86_64-v0.3.1,56
+2024-11-01,kernel-testing/centos-kernel,3.10-x86_64-v0.3.0,55
+2024-11-01,kernel-testing/centos-kernel,4.18-x86_64-v0.3.0,55
+2024-11-01,kernel-testing/centos-kernel,5.14-x86_64-v0.3.0,55
