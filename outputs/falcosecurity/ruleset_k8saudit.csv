@@ -3652,3 +3652,15 @@ Date,Package,Version,Count
 2024-11-08,ruleset/k8saudit,0.5.2,84316
 2024-11-08,ruleset/k8saudit,0.5.1,176595
 2024-11-08,ruleset/k8saudit,0.5.0,1030701
+2024-11-09,ruleset/k8saudit,0.10.1,7008162
+2024-11-09,ruleset/k8saudit,0.10.0,843465
+2024-11-09,ruleset/k8saudit,0.10.0-rc1,4075
+2024-11-09,ruleset/k8saudit,0.9.0,728362
+2024-11-09,ruleset/k8saudit,0.8.0,456673
+2024-11-09,ruleset/k8saudit,0.7.0,14246824
+2024-11-09,ruleset/k8saudit,0.6.1,5123082
+2024-11-09,ruleset/k8saudit,0.6.0,644689
+2024-11-09,ruleset/k8saudit,0.5.3,17573218
+2024-11-09,ruleset/k8saudit,0.5.2,84340
+2024-11-09,ruleset/k8saudit,0.5.1,176619
+2024-11-09,ruleset/k8saudit,0.5.0,1030825
