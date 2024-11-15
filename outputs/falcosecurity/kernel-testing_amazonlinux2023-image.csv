@@ -377,3 +377,6 @@ Date,Package,Version,Count
 2024-11-14,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.2,597
 2024-11-14,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.1,46
 2024-11-14,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.0,45
+2024-11-15,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.2,616
+2024-11-15,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.1,46
+2024-11-15,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.0,45
