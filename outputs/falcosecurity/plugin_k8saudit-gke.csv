@@ -921,3 +921,9 @@ Date,Package,Version,Count
 2024-11-19,plugin/k8saudit-gke,0.2.0,210
 2024-11-19,plugin/k8saudit-gke,0.1.1,163
 2024-11-19,plugin/k8saudit-gke,0.1.0,71009
+2024-11-20,plugin/k8saudit-gke,0.4.0,2
+2024-11-20,plugin/k8saudit-gke,0.3.1,3863
+2024-11-20,plugin/k8saudit-gke,0.3.0,649
+2024-11-20,plugin/k8saudit-gke,0.2.0,222
+2024-11-20,plugin/k8saudit-gke,0.1.1,163
+2024-11-20,plugin/k8saudit-gke,0.1.0,73169

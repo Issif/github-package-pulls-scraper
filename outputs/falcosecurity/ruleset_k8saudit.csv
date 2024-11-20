@@ -3784,3 +3784,16 @@ Date,Package,Version,Count
 2024-11-19,ruleset/k8saudit,0.5.2,84580
 2024-11-19,ruleset/k8saudit,0.5.1,176859
 2024-11-19,ruleset/k8saudit,0.5.0,1032066
+2024-11-20,ruleset/k8saudit,0.11.0,75920
+2024-11-20,ruleset/k8saudit,0.10.1,7935899
+2024-11-20,ruleset/k8saudit,0.10.0,845699
+2024-11-20,ruleset/k8saudit,0.10.0-rc1,4339
+2024-11-20,ruleset/k8saudit,0.9.0,792498
+2024-11-20,ruleset/k8saudit,0.8.0,457809
+2024-11-20,ruleset/k8saudit,0.7.0,17001351
+2024-11-20,ruleset/k8saudit,0.6.1,5191852
+2024-11-20,ruleset/k8saudit,0.6.0,645173
+2024-11-20,ruleset/k8saudit,0.5.3,17773143
+2024-11-20,ruleset/k8saudit,0.5.2,84604
+2024-11-20,ruleset/k8saudit,0.5.1,176883
+2024-11-20,ruleset/k8saudit,0.5.0,1032190
