@@ -1962,3 +1962,10 @@ Date,Package,Version,Count
 2024-11-21,rules/falco-sandbox-rules,3.0.0-rc1,7400
 2024-11-21,rules/falco-sandbox-rules,2.0.0,20978022
 2024-11-21,rules/falco-sandbox-rules,2.0.0-rc1,10545
+2024-11-22,rules/falco-sandbox-rules,4.0.1,466821
+2024-11-22,rules/falco-sandbox-rules,4.0.0,109920
+2024-11-22,rules/falco-sandbox-rules,3.0.1,5869786
+2024-11-22,rules/falco-sandbox-rules,3.0.0,267215
+2024-11-22,rules/falco-sandbox-rules,3.0.0-rc1,7446
+2024-11-22,rules/falco-sandbox-rules,2.0.0,21043001
+2024-11-22,rules/falco-sandbox-rules,2.0.0-rc1,10591

@@ -3811,3 +3811,16 @@ Date,Package,Version,Count
 2024-11-21,plugin/k8saudit,0.5.2,18519
 2024-11-21,plugin/k8saudit,0.5.1,11198
 2024-11-21,plugin/k8saudit,0.5.0,40512
+2024-11-22,plugin/k8saudit,0.11.0,118346
+2024-11-22,plugin/k8saudit,0.10.1,4193784
+2024-11-22,plugin/k8saudit,0.10.0,494942
+2024-11-22,plugin/k8saudit,0.10.0-rc1,4413
+2024-11-22,plugin/k8saudit,0.9.0,295804
+2024-11-22,plugin/k8saudit,0.8.0,287031
+2024-11-22,plugin/k8saudit,0.7.0,6442992
+2024-11-22,plugin/k8saudit,0.6.1,1166769
+2024-11-22,plugin/k8saudit,0.6.0,259192
+2024-11-22,plugin/k8saudit,0.5.3,63461
+2024-11-22,plugin/k8saudit,0.5.2,18564
+2024-11-22,plugin/k8saudit,0.5.1,11243
+2024-11-22,plugin/k8saudit,0.5.0,40693
