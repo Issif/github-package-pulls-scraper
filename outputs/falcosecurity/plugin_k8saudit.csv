@@ -4044,3 +4044,16 @@ Date,Package,Version,Count
 2024-12-09,plugin/k8saudit,0.5.2,19263
 2024-12-09,plugin/k8saudit,0.5.1,11942
 2024-12-09,plugin/k8saudit,0.5.0,42694
+2024-12-10,plugin/k8saudit,0.11.0,734926
+2024-12-10,plugin/k8saudit,0.10.1,4272428
+2024-12-10,plugin/k8saudit,0.10.0,496336
+2024-12-10,plugin/k8saudit,0.10.0-rc1,5136
+2024-12-10,plugin/k8saudit,0.9.0,297672
+2024-12-10,plugin/k8saudit,0.8.0,288480
+2024-12-10,plugin/k8saudit,0.7.0,7037962
+2024-12-10,plugin/k8saudit,0.6.1,1168215
+2024-12-10,plugin/k8saudit,0.6.0,260503
+2024-12-10,plugin/k8saudit,0.5.3,64907
+2024-12-10,plugin/k8saudit,0.5.2,19287
+2024-12-10,plugin/k8saudit,0.5.1,11966
+2024-12-10,plugin/k8saudit,0.5.0,42820
