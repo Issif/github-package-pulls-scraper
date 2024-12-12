@@ -1834,3 +1834,15 @@ Date,Package,Version,Count
 2024-12-11,kernel-testing/fedora-image,6.2-x86_64-v0.3.0,49
 2024-12-11,kernel-testing/fedora-image,5.8-x86_64-v0.3.0,49
 2024-12-11,kernel-testing/fedora-image,6.2-aarch64-v0.3.0,49
+2024-12-12,kernel-testing/fedora-image,5.17-x86_64-v0.3.2,775
+2024-12-12,kernel-testing/fedora-image,6.2-x86_64-v0.3.2,782
+2024-12-12,kernel-testing/fedora-image,5.8-x86_64-v0.3.2,717
+2024-12-12,kernel-testing/fedora-image,6.2-aarch64-v0.3.2,648
+2024-12-12,kernel-testing/fedora-image,5.17-x86_64-v0.3.1,50
+2024-12-12,kernel-testing/fedora-image,6.2-x86_64-v0.3.1,50
+2024-12-12,kernel-testing/fedora-image,5.8-x86_64-v0.3.1,50
+2024-12-12,kernel-testing/fedora-image,6.2-aarch64-v0.3.1,50
+2024-12-12,kernel-testing/fedora-image,5.17-x86_64-v0.3.0,49
+2024-12-12,kernel-testing/fedora-image,6.2-x86_64-v0.3.0,49
+2024-12-12,kernel-testing/fedora-image,5.8-x86_64-v0.3.0,49
+2024-12-12,kernel-testing/fedora-image,6.2-aarch64-v0.3.0,49
