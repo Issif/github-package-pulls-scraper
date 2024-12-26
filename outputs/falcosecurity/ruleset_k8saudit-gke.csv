@@ -886,3 +886,10 @@ Date,Package,Version,Count
 2024-12-25,ruleset/k8saudit-gke,0.2.0,35
 2024-12-25,ruleset/k8saudit-gke,0.1.1,49
 2024-12-25,ruleset/k8saudit-gke,0.1.0,809
+2024-12-26,ruleset/k8saudit-gke,0.4.1,5
+2024-12-26,ruleset/k8saudit-gke,0.4.0,23
+2024-12-26,ruleset/k8saudit-gke,0.3.1,400086
+2024-12-26,ruleset/k8saudit-gke,0.3.0,27
+2024-12-26,ruleset/k8saudit-gke,0.2.0,35
+2024-12-26,ruleset/k8saudit-gke,0.1.1,49
+2024-12-26,ruleset/k8saudit-gke,0.1.0,809
