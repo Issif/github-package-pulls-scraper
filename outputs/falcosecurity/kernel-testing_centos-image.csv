@@ -1520,3 +1520,12 @@ Date,Package,Version,Count
 2024-12-27,kernel-testing/centos-image,3.10-x86_64-v0.3.0,52
 2024-12-27,kernel-testing/centos-image,4.18-x86_64-v0.3.0,52
 2024-12-27,kernel-testing/centos-image,5.14-x86_64-v0.3.0,52
+2024-12-28,kernel-testing/centos-image,3.10-x86_64-v0.3.2,111
+2024-12-28,kernel-testing/centos-image,4.18-x86_64-v0.3.2,760
+2024-12-28,kernel-testing/centos-image,5.14-x86_64-v0.3.2,872
+2024-12-28,kernel-testing/centos-image,3.10-x86_64-v0.3.1,53
+2024-12-28,kernel-testing/centos-image,4.18-x86_64-v0.3.1,53
+2024-12-28,kernel-testing/centos-image,5.14-x86_64-v0.3.1,53
+2024-12-28,kernel-testing/centos-image,3.10-x86_64-v0.3.0,52
+2024-12-28,kernel-testing/centos-image,4.18-x86_64-v0.3.0,52
+2024-12-28,kernel-testing/centos-image,5.14-x86_64-v0.3.0,52
