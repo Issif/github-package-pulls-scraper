@@ -4343,3 +4343,16 @@ Date,Package,Version,Count
 2025-01-01,plugin/k8saudit,0.5.2,19816
 2025-01-01,plugin/k8saudit,0.5.1,12495
 2025-01-01,plugin/k8saudit,0.5.0,46071
+2025-01-02,plugin/k8saudit,0.11.0,1420717
+2025-01-02,plugin/k8saudit,0.10.1,4360670
+2025-01-02,plugin/k8saudit,0.10.0,498660
+2025-01-02,plugin/k8saudit,0.10.0-rc1,5689
+2025-01-02,plugin/k8saudit,0.9.0,299303
+2025-01-02,plugin/k8saudit,0.8.0,289595
+2025-01-02,plugin/k8saudit,0.7.0,7889571
+2025-01-02,plugin/k8saudit,0.6.1,1169321
+2025-01-02,plugin/k8saudit,0.6.0,261260
+2025-01-02,plugin/k8saudit,0.5.3,66013
+2025-01-02,plugin/k8saudit,0.5.2,19840
+2025-01-02,plugin/k8saudit,0.5.1,12519
+2025-01-02,plugin/k8saudit,0.5.0,46151
