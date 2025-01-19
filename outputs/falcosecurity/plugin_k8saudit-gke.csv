@@ -1313,3 +1313,10 @@ Date,Package,Version,Count
 2025-01-18,plugin/k8saudit-gke,0.2.0,273
 2025-01-18,plugin/k8saudit-gke,0.1.1,163
 2025-01-18,plugin/k8saudit-gke,0.1.0,182122
+2025-01-19,plugin/k8saudit-gke,0.4.1,161
+2025-01-19,plugin/k8saudit-gke,0.4.0,299
+2025-01-19,plugin/k8saudit-gke,0.3.1,3965
+2025-01-19,plugin/k8saudit-gke,0.3.0,700
+2025-01-19,plugin/k8saudit-gke,0.2.0,273
+2025-01-19,plugin/k8saudit-gke,0.1.1,163
+2025-01-19,plugin/k8saudit-gke,0.1.0,183534
