@@ -3939,3 +3939,13 @@ Date,Package,Version,Count
 2025-03-17,plugin/k8saudit-eks,0.1.2,1927698
 2025-03-17,plugin/k8saudit-eks,0.1.1,9232
 2025-03-17,plugin/k8saudit-eks,0.1.0,201642
+2025-03-18,plugin/k8saudit-eks,0.7.0,2086465
+2025-03-18,plugin/k8saudit-eks,0.6.0,1421702
+2025-03-18,plugin/k8saudit-eks,0.5.1,182461
+2025-03-18,plugin/k8saudit-eks,0.5.0,14558
+2025-03-18,plugin/k8saudit-eks,0.4.0,119769
+2025-03-18,plugin/k8saudit-eks,0.2.1,14014
+2025-03-18,plugin/k8saudit-eks,0.2.0,425241
+2025-03-18,plugin/k8saudit-eks,0.1.2,1927698
+2025-03-18,plugin/k8saudit-eks,0.1.1,9232
+2025-03-18,plugin/k8saudit-eks,0.1.0,201642
