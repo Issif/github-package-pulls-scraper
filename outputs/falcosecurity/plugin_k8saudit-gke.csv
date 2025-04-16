@@ -1922,3 +1922,10 @@ Date,Package,Version,Count
 2025-04-15,plugin/k8saudit-gke,0.2.0,564
 2025-04-15,plugin/k8saudit-gke,0.1.1,163
 2025-04-15,plugin/k8saudit-gke,0.1.0,286506
+2025-04-16,plugin/k8saudit-gke,0.4.1,18538
+2025-04-16,plugin/k8saudit-gke,0.4.0,596
+2025-04-16,plugin/k8saudit-gke,0.3.1,4028
+2025-04-16,plugin/k8saudit-gke,0.3.0,997
+2025-04-16,plugin/k8saudit-gke,0.2.0,570
+2025-04-16,plugin/k8saudit-gke,0.1.1,163
+2025-04-16,plugin/k8saudit-gke,0.1.0,287076
