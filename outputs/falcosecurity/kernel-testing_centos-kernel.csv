@@ -2643,3 +2643,12 @@ Date,Package,Version,Count
 2025-05-01,kernel-testing/centos-kernel,3.10-x86_64-v0.3.0,55
 2025-05-01,kernel-testing/centos-kernel,4.18-x86_64-v0.3.0,55
 2025-05-01,kernel-testing/centos-kernel,5.14-x86_64-v0.3.0,55
+2025-05-02,kernel-testing/centos-kernel,3.10-x86_64-v0.3.2,117
+2025-05-02,kernel-testing/centos-kernel,4.18-x86_64-v0.3.2,1173
+2025-05-02,kernel-testing/centos-kernel,5.14-x86_64-v0.3.2,1279
+2025-05-02,kernel-testing/centos-kernel,3.10-x86_64-v0.3.1,56
+2025-05-02,kernel-testing/centos-kernel,4.18-x86_64-v0.3.1,56
+2025-05-02,kernel-testing/centos-kernel,5.14-x86_64-v0.3.1,56
+2025-05-02,kernel-testing/centos-kernel,3.10-x86_64-v0.3.0,55
+2025-05-02,kernel-testing/centos-kernel,4.18-x86_64-v0.3.0,55
+2025-05-02,kernel-testing/centos-kernel,5.14-x86_64-v0.3.0,55
