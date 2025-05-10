@@ -1831,3 +1831,10 @@ Date,Package,Version,Count
 2025-05-09,ruleset/k8saudit-gke,0.2.0,35
 2025-05-09,ruleset/k8saudit-gke,0.1.1,49
 2025-05-09,ruleset/k8saudit-gke,0.1.0,809
+2025-05-10,ruleset/k8saudit-gke,0.4.1,241710
+2025-05-10,ruleset/k8saudit-gke,0.4.0,23
+2025-05-10,ruleset/k8saudit-gke,0.3.1,714367
+2025-05-10,ruleset/k8saudit-gke,0.3.0,27
+2025-05-10,ruleset/k8saudit-gke,0.2.0,35
+2025-05-10,ruleset/k8saudit-gke,0.1.1,49
+2025-05-10,ruleset/k8saudit-gke,0.1.0,809
