@@ -94,3 +94,5 @@ Date,Package,Version,Count
 2025-05-10,plugin/k8saudit-aks,0.1.0,7995
 2025-05-11,plugin/k8saudit-aks,0.1.0,8040
 2025-05-12,plugin/k8saudit-aks,0.1.0,8119
+2025-05-13,plugin/k8saudit-aks,0.2.0,20
+2025-05-13,plugin/k8saudit-aks,0.1.0,8220
