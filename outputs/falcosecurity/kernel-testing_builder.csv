@@ -1895,3 +1895,9 @@ Date,Package,Version,Count
 2025-05-23,kernel-testing/builder,aarch64-v0.3.1,49
 2025-05-23,kernel-testing/builder,x86_64-v0.3.0,48
 2025-05-23,kernel-testing/builder,aarch64-v0.3.0,48
+2025-05-24,kernel-testing/builder,x86_64-v0.3.2,99
+2025-05-24,kernel-testing/builder,aarch64-v0.3.2,97
+2025-05-24,kernel-testing/builder,x86_64-v0.3.1,49
+2025-05-24,kernel-testing/builder,aarch64-v0.3.1,49
+2025-05-24,kernel-testing/builder,x86_64-v0.3.0,48
+2025-05-24,kernel-testing/builder,aarch64-v0.3.0,48
