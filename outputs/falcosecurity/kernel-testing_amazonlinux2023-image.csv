@@ -968,3 +968,6 @@ Date,Package,Version,Count
 2025-05-30,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.2,1492
 2025-05-30,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.1,46
 2025-05-30,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.0,45
+2025-05-31,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.2,1501
+2025-05-31,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.1,46
+2025-05-31,kernel-testing/amazonlinux2023-image,6.1-x86_64-v0.3.0,45
