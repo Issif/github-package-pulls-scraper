@@ -3622,3 +3622,13 @@ Date,Package,Version,Count
 2025-06-20,rules/falco-sandbox-rules,3.0.0-rc1,11758
 2025-06-20,rules/falco-sandbox-rules,2.0.0,32824834
 2025-06-20,rules/falco-sandbox-rules,2.0.0-rc1,14904
+2025-06-21,rules/falco-sandbox-rules,5.0.1,4328659
+2025-06-21,rules/falco-sandbox-rules,5.0.0,17490367
+2025-06-21,rules/falco-sandbox-rules,4.1.0,14922218
+2025-06-21,rules/falco-sandbox-rules,4.0.1,2475385
+2025-06-21,rules/falco-sandbox-rules,4.0.0,114241
+2025-06-21,rules/falco-sandbox-rules,3.0.1,16000767
+2025-06-21,rules/falco-sandbox-rules,3.0.0,523326
+2025-06-21,rules/falco-sandbox-rules,3.0.0-rc1,11766
+2025-06-21,rules/falco-sandbox-rules,2.0.0,32907647
+2025-06-21,rules/falco-sandbox-rules,2.0.0-rc1,14912
