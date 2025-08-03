@@ -2321,3 +2321,9 @@ Date,Package,Version,Count
 2025-08-02,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.1,50
 2025-08-02,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.0,49
 2025-08-02,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.0,49
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.2,1616
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.2,1845
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.1,50
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.1,50
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.0,49
+2025-08-03,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.0,49
