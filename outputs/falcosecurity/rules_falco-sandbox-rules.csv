@@ -4442,3 +4442,13 @@ Date,Package,Version,Count
 2025-09-10,rules/falco-sandbox-rules,3.0.0-rc1,12414
 2025-09-10,rules/falco-sandbox-rules,2.0.0,41833094
 2025-09-10,rules/falco-sandbox-rules,2.0.0-rc1,15560
+2025-09-11,rules/falco-sandbox-rules,5.0.1,138468909
+2025-09-11,rules/falco-sandbox-rules,5.0.0,17491028
+2025-09-11,rules/falco-sandbox-rules,4.1.0,22838543
+2025-09-11,rules/falco-sandbox-rules,4.0.1,2478572
+2025-09-11,rules/falco-sandbox-rules,4.0.0,114897
+2025-09-11,rules/falco-sandbox-rules,3.0.1,19394273
+2025-09-11,rules/falco-sandbox-rules,3.0.0,566519
+2025-09-11,rules/falco-sandbox-rules,3.0.0-rc1,12422
+2025-09-11,rules/falco-sandbox-rules,2.0.0,41955920
+2025-09-11,rules/falco-sandbox-rules,2.0.0-rc1,15568
