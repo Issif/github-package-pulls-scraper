@@ -5241,3 +5241,15 @@ Date,Package,Version,Count
 2025-09-21,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,49
 2025-09-21,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,49
 2025-09-21,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,49
+2025-09-22,kernel-testing/archlinux-image,5.18-x86_64-v0.3.2,97
+2025-09-22,kernel-testing/archlinux-image,6.7-x86_64-v0.3.2,2056
+2025-09-22,kernel-testing/archlinux-image,6.0-x86_64-v0.3.2,2035
+2025-09-22,kernel-testing/archlinux-image,4.14-aarch64-v0.3.2,98
+2025-09-22,kernel-testing/archlinux-image,5.18-x86_64-v0.3.1,49
+2025-09-22,kernel-testing/archlinux-image,6.7-x86_64-v0.3.1,50
+2025-09-22,kernel-testing/archlinux-image,6.0-x86_64-v0.3.1,50
+2025-09-22,kernel-testing/archlinux-image,4.14-aarch64-v0.3.1,49
+2025-09-22,kernel-testing/archlinux-image,5.18-x86_64-v0.3.0,49
+2025-09-22,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,49
+2025-09-22,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,49
+2025-09-22,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,49
