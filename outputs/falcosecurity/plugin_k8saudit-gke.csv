@@ -3286,3 +3286,12 @@ Date,Package,Version,Count
 2025-09-24,plugin/k8saudit-gke,0.2.0,1041
 2025-09-24,plugin/k8saudit-gke,0.1.1,163
 2025-09-24,plugin/k8saudit-gke,0.1.0,371099
+2025-09-25,plugin/k8saudit-gke,0.6.0,234691
+2025-09-25,plugin/k8saudit-gke,0.5.0,351585
+2025-09-25,plugin/k8saudit-gke,0.4.1,64438
+2025-09-25,plugin/k8saudit-gke,0.4.0,1073
+2025-09-25,plugin/k8saudit-gke,0.3.1,4169
+2025-09-25,plugin/k8saudit-gke,0.3.0,1486
+2025-09-25,plugin/k8saudit-gke,0.2.0,1047
+2025-09-25,plugin/k8saudit-gke,0.1.1,163
+2025-09-25,plugin/k8saudit-gke,0.1.0,371105
