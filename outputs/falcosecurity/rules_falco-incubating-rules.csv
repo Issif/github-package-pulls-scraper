@@ -4393,3 +4393,12 @@ Date,Package,Version,Count
 2025-10-01,rules/falco-incubating-rules,3.0.0-rc1,12600
 2025-10-01,rules/falco-incubating-rules,2.0.0,99647289
 2025-10-01,rules/falco-incubating-rules,2.0.0-rc1,13266
+2025-10-02,rules/falco-incubating-rules,5.0.1,198214581
+2025-10-02,rules/falco-incubating-rules,5.0.0,18511994
+2025-10-02,rules/falco-incubating-rules,4.0.1,61506200
+2025-10-02,rules/falco-incubating-rules,4.0.0,193270902
+2025-10-02,rules/falco-incubating-rules,3.0.1,62552993
+2025-10-02,rules/falco-incubating-rules,3.0.0,569132
+2025-10-02,rules/falco-incubating-rules,3.0.0-rc1,12608
+2025-10-02,rules/falco-incubating-rules,2.0.0,99807584
+2025-10-02,rules/falco-incubating-rules,2.0.0-rc1,13274
