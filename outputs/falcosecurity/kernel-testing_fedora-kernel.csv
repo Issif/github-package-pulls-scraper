@@ -5529,3 +5529,15 @@ Date,Package,Version,Count
 2025-10-15,kernel-testing/fedora-kernel,6.2-x86_64-v0.3.0,50
 2025-10-15,kernel-testing/fedora-kernel,5.8-x86_64-v0.3.0,50
 2025-10-15,kernel-testing/fedora-kernel,6.2-aarch64-v0.3.0,50
+2025-10-16,kernel-testing/fedora-kernel,5.17-x86_64-v0.3.2,2135
+2025-10-16,kernel-testing/fedora-kernel,6.2-x86_64-v0.3.2,2135
+2025-10-16,kernel-testing/fedora-kernel,5.8-x86_64-v0.3.2,1641
+2025-10-16,kernel-testing/fedora-kernel,6.2-aarch64-v0.3.2,1932
+2025-10-16,kernel-testing/fedora-kernel,5.17-x86_64-v0.3.1,51
+2025-10-16,kernel-testing/fedora-kernel,6.2-x86_64-v0.3.1,51
+2025-10-16,kernel-testing/fedora-kernel,5.8-x86_64-v0.3.1,51
+2025-10-16,kernel-testing/fedora-kernel,6.2-aarch64-v0.3.1,51
+2025-10-16,kernel-testing/fedora-kernel,5.17-x86_64-v0.3.0,50
+2025-10-16,kernel-testing/fedora-kernel,6.2-x86_64-v0.3.0,50
+2025-10-16,kernel-testing/fedora-kernel,5.8-x86_64-v0.3.0,50
+2025-10-16,kernel-testing/fedora-kernel,6.2-aarch64-v0.3.0,50
