@@ -2915,3 +2915,9 @@ Date,Package,Version,Count
 2025-11-09,kernel-testing/modernprobe-builder,aarch64-v0.3.1,54
 2025-11-09,kernel-testing/modernprobe-builder,x86_64-v0.3.0,53
 2025-11-09,kernel-testing/modernprobe-builder,aarch64-v0.3.0,53
+2025-11-10,kernel-testing/modernprobe-builder,x86_64-v0.3.2,164
+2025-11-10,kernel-testing/modernprobe-builder,aarch64-v0.3.2,112
+2025-11-10,kernel-testing/modernprobe-builder,x86_64-v0.3.1,55
+2025-11-10,kernel-testing/modernprobe-builder,aarch64-v0.3.1,55
+2025-11-10,kernel-testing/modernprobe-builder,x86_64-v0.3.0,54
+2025-11-10,kernel-testing/modernprobe-builder,aarch64-v0.3.0,54
