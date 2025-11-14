@@ -4409,3 +4409,12 @@ Date,Package,Version,Count
 2025-11-13,kernel-testing/centos-image,3.10-x86_64-v0.3.0,53
 2025-11-13,kernel-testing/centos-image,4.18-x86_64-v0.3.0,53
 2025-11-13,kernel-testing/centos-image,5.14-x86_64-v0.3.0,53
+2025-11-14,kernel-testing/centos-image,3.10-x86_64-v0.3.2,127
+2025-11-14,kernel-testing/centos-image,4.18-x86_64-v0.3.2,1581
+2025-11-14,kernel-testing/centos-image,5.14-x86_64-v0.3.2,2243
+2025-11-14,kernel-testing/centos-image,3.10-x86_64-v0.3.1,54
+2025-11-14,kernel-testing/centos-image,4.18-x86_64-v0.3.1,54
+2025-11-14,kernel-testing/centos-image,5.14-x86_64-v0.3.1,54
+2025-11-14,kernel-testing/centos-image,3.10-x86_64-v0.3.0,53
+2025-11-14,kernel-testing/centos-image,4.18-x86_64-v0.3.0,53
+2025-11-14,kernel-testing/centos-image,5.14-x86_64-v0.3.0,53
