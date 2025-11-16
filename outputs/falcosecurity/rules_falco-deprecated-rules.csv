@@ -2365,3 +2365,7 @@ Date,Package,Version,Count
 2025-11-15,rules/falco-deprecated-rules,3.0.0-rc1,68
 2025-11-15,rules/falco-deprecated-rules,2.0.0-rc2,114
 2025-11-15,rules/falco-deprecated-rules,2.0.0-rc1,116
+2025-11-16,rules/falco-deprecated-rules,3.0.0,250
+2025-11-16,rules/falco-deprecated-rules,3.0.0-rc1,68
+2025-11-16,rules/falco-deprecated-rules,2.0.0-rc2,114
+2025-11-16,rules/falco-deprecated-rules,2.0.0-rc1,116
