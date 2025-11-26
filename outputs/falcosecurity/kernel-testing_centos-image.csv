@@ -4517,3 +4517,12 @@ Date,Package,Version,Count
 2025-11-25,kernel-testing/centos-image,3.10-x86_64-v0.3.0,53
 2025-11-25,kernel-testing/centos-image,4.18-x86_64-v0.3.0,53
 2025-11-25,kernel-testing/centos-image,5.14-x86_64-v0.3.0,53
+2025-11-26,kernel-testing/centos-image,3.10-x86_64-v0.3.2,129
+2025-11-26,kernel-testing/centos-image,4.18-x86_64-v0.3.2,1583
+2025-11-26,kernel-testing/centos-image,5.14-x86_64-v0.3.2,2248
+2025-11-26,kernel-testing/centos-image,3.10-x86_64-v0.3.1,54
+2025-11-26,kernel-testing/centos-image,4.18-x86_64-v0.3.1,54
+2025-11-26,kernel-testing/centos-image,5.14-x86_64-v0.3.1,54
+2025-11-26,kernel-testing/centos-image,3.10-x86_64-v0.3.0,53
+2025-11-26,kernel-testing/centos-image,4.18-x86_64-v0.3.0,53
+2025-11-26,kernel-testing/centos-image,5.14-x86_64-v0.3.0,53

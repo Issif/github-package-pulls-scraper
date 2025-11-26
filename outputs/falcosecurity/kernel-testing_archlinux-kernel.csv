@@ -6023,3 +6023,15 @@ Date,Package,Version,Count
 2025-11-25,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,51
 2025-11-25,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,51
 2025-11-25,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,51
+2025-11-26,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.2,100
+2025-11-26,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.2,2240
+2025-11-26,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.2,2217
+2025-11-26,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.2,101
+2025-11-26,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.1,51
+2025-11-26,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.1,52
+2025-11-26,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.1,52
+2025-11-26,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.1,51
+2025-11-26,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.0,51
+2025-11-26,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,51
+2025-11-26,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,51
+2025-11-26,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,51
