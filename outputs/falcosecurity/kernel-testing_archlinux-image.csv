@@ -6093,3 +6093,15 @@ Date,Package,Version,Count
 2025-12-01,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,50
 2025-12-01,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,50
 2025-12-01,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,50
+2025-12-02,kernel-testing/archlinux-image,5.18-x86_64-v0.3.2,98
+2025-12-02,kernel-testing/archlinux-image,6.7-x86_64-v0.3.2,2269
+2025-12-02,kernel-testing/archlinux-image,6.0-x86_64-v0.3.2,2249
+2025-12-02,kernel-testing/archlinux-image,4.14-aarch64-v0.3.2,99
+2025-12-02,kernel-testing/archlinux-image,5.18-x86_64-v0.3.1,50
+2025-12-02,kernel-testing/archlinux-image,6.7-x86_64-v0.3.1,51
+2025-12-02,kernel-testing/archlinux-image,6.0-x86_64-v0.3.1,51
+2025-12-02,kernel-testing/archlinux-image,4.14-aarch64-v0.3.1,50
+2025-12-02,kernel-testing/archlinux-image,5.18-x86_64-v0.3.0,50
+2025-12-02,kernel-testing/archlinux-image,6.7-x86_64-v0.3.0,50
+2025-12-02,kernel-testing/archlinux-image,6.0-x86_64-v0.3.0,50
+2025-12-02,kernel-testing/archlinux-image,4.14-aarch64-v0.3.0,50
