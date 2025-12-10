@@ -4643,3 +4643,12 @@ Date,Package,Version,Count
 2025-12-09,kernel-testing/centos-image,3.10-x86_64-v0.3.0,54
 2025-12-09,kernel-testing/centos-image,4.18-x86_64-v0.3.0,54
 2025-12-09,kernel-testing/centos-image,5.14-x86_64-v0.3.0,54
+2025-12-10,kernel-testing/centos-image,3.10-x86_64-v0.3.2,132
+2025-12-10,kernel-testing/centos-image,4.18-x86_64-v0.3.2,1586
+2025-12-10,kernel-testing/centos-image,5.14-x86_64-v0.3.2,2285
+2025-12-10,kernel-testing/centos-image,3.10-x86_64-v0.3.1,55
+2025-12-10,kernel-testing/centos-image,4.18-x86_64-v0.3.1,55
+2025-12-10,kernel-testing/centos-image,5.14-x86_64-v0.3.1,55
+2025-12-10,kernel-testing/centos-image,3.10-x86_64-v0.3.0,54
+2025-12-10,kernel-testing/centos-image,4.18-x86_64-v0.3.0,54
+2025-12-10,kernel-testing/centos-image,5.14-x86_64-v0.3.0,54
