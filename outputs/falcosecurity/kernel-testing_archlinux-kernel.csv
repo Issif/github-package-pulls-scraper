@@ -6275,3 +6275,15 @@ Date,Package,Version,Count
 2025-12-16,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,52
 2025-12-16,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,52
 2025-12-16,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,52
+2025-12-17,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.2,102
+2025-12-17,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.2,2296
+2025-12-17,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.2,2274
+2025-12-17,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.2,102
+2025-12-17,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.1,52
+2025-12-17,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.1,53
+2025-12-17,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.1,53
+2025-12-17,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.1,52
+2025-12-17,kernel-testing/archlinux-kernel,5.18-x86_64-v0.3.0,52
+2025-12-17,kernel-testing/archlinux-kernel,6.7-x86_64-v0.3.0,52
+2025-12-17,kernel-testing/archlinux-kernel,6.0-x86_64-v0.3.0,52
+2025-12-17,kernel-testing/archlinux-kernel,4.14-aarch64-v0.3.0,52
