@@ -1601,3 +1601,7 @@ Date,Package,Version,Count
 2025-12-25,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.2,2300
 2025-12-25,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.1,55
 2025-12-25,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.0,54
+2025-12-26,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.4.0,38
+2025-12-26,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.2,2300
+2025-12-26,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.1,55
+2025-12-26,kernel-testing/amazonlinux2023-kernel,6.1-x86_64-v0.3.0,54
