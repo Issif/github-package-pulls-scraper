@@ -644,3 +644,6 @@ Date,Package,Version,Count
 2025-12-31,plugin/k8saudit-ovh,0.4.0,24
 2025-12-31,plugin/k8saudit-ovh,0.2.0,147
 2025-12-31,plugin/k8saudit-ovh,0.1.0,9797
+2026-01-01,plugin/k8saudit-ovh,0.4.0,24
+2026-01-01,plugin/k8saudit-ovh,0.2.0,147
+2026-01-01,plugin/k8saudit-ovh,0.1.0,9805
