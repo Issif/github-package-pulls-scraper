@@ -3277,3 +3277,11 @@ Date,Package,Version,Count
 2026-01-03,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.1,52
 2026-01-03,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.0,51
 2026-01-03,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.0,51
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.4.0,42
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.4.0,41
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.2,2083
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.2,2369
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.1,52
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.1,52
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-aarch64-v0.3.0,51
+2026-01-04,kernel-testing/amazonlinux2022-kernel,5.15-x86_64-v0.3.0,51
