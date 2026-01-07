@@ -863,3 +863,7 @@ Date,Package,Version,Count
 2026-01-06,plugin/k8saudit-aks,0.3.0,80054
 2026-01-06,plugin/k8saudit-aks,0.2.0,5711
 2026-01-06,plugin/k8saudit-aks,0.1.0,24862
+2026-01-07,plugin/k8saudit-aks,0.4.0,8044
+2026-01-07,plugin/k8saudit-aks,0.3.0,80602
+2026-01-07,plugin/k8saudit-aks,0.2.0,5727
+2026-01-07,plugin/k8saudit-aks,0.1.0,24921
