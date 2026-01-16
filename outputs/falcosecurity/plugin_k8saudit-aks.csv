@@ -899,3 +899,7 @@ Date,Package,Version,Count
 2026-01-15,plugin/k8saudit-aks,0.3.0,83824
 2026-01-15,plugin/k8saudit-aks,0.2.0,5815
 2026-01-15,plugin/k8saudit-aks,0.1.0,25087
+2026-01-16,plugin/k8saudit-aks,0.4.0,9403
+2026-01-16,plugin/k8saudit-aks,0.3.0,84340
+2026-01-16,plugin/k8saudit-aks,0.2.0,5827
+2026-01-16,plugin/k8saudit-aks,0.1.0,25120
