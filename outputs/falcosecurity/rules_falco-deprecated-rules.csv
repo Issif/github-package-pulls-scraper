@@ -2613,3 +2613,7 @@ Date,Package,Version,Count
 2026-01-16,rules/falco-deprecated-rules,3.0.0-rc1,69
 2026-01-16,rules/falco-deprecated-rules,2.0.0-rc2,115
 2026-01-16,rules/falco-deprecated-rules,2.0.0-rc1,116
+2026-01-17,rules/falco-deprecated-rules,3.0.0,251
+2026-01-17,rules/falco-deprecated-rules,3.0.0-rc1,69
+2026-01-17,rules/falco-deprecated-rules,2.0.0-rc2,115
+2026-01-17,rules/falco-deprecated-rules,2.0.0-rc1,116
