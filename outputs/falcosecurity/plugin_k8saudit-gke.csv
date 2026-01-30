@@ -4540,3 +4540,13 @@ Date,Package,Version,Count
 2026-01-29,plugin/k8saudit-gke,0.2.0,1291
 2026-01-29,plugin/k8saudit-gke,0.1.1,163
 2026-01-29,plugin/k8saudit-gke,0.1.0,371404
+2026-01-30,plugin/k8saudit-gke,0.7.0,60621
+2026-01-30,plugin/k8saudit-gke,0.6.0,800793
+2026-01-30,plugin/k8saudit-gke,0.5.0,351813
+2026-01-30,plugin/k8saudit-gke,0.4.1,64517
+2026-01-30,plugin/k8saudit-gke,0.4.0,1316
+2026-01-30,plugin/k8saudit-gke,0.3.1,4283
+2026-01-30,plugin/k8saudit-gke,0.3.0,1741
+2026-01-30,plugin/k8saudit-gke,0.2.0,1321
+2026-01-30,plugin/k8saudit-gke,0.1.1,163
+2026-01-30,plugin/k8saudit-gke,0.1.0,371434
